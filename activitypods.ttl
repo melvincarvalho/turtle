@@ -1,0 +1,45 @@
+@prefix schema: <http://schema.org/> .
+@prefix solid: <http://www.w3.org/ns/solid/terms#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix apods: <http://activitypods.org/ns/core#> .
+@prefix interop: <http://www.w3.org/ns/solid/interop#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix acl:   <http://www.w3.org/ns/auth/acl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix oidc:  <http://www.w3.org/ns/solid/oidc#> .
+@prefix notify: <http://www.w3.org/ns/solid/notifications#> .
+@prefix pair:  <http://virtual-assembly.org/ontologies/pair#> .
+@prefix sec:   <https://w3id.org/security#> .
+@prefix as:    <https://www.w3.org/ns/activitystreams#> .
+@prefix pim:   <http://www.w3.org/ns/pim/space#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix maid:  <https://mutual-aid.app/ns/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix semapps: <http://semapps.org/ns/core#> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+
+<https://mypod.store/laurin>
+        a                       as:Person , foaf:Person ;
+        apods:contactRequests   <https://mypod.store/laurin/contact-requests> ;
+        apods:contacts          <https://mypod.store/laurin/contacts> ;
+        apods:ignoredContacts   <https://mypod.store/laurin/ignored-contacts> ;
+        apods:rejectedContacts  <https://mypod.store/laurin/rejected-contacts> ;
+        dc:created              "2023-02-03T14:02:36.75Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        dc:modified             "2024-10-02T10:29:25.195Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+        schema:knowsLanguage    "en" ;
+        ldp:inbox               <https://mypod.store/laurin/inbox> ;
+        pim:storage             <https://mypod.store/laurin/data> ;
+        solid:oidcIssuer        <https://mypod.store> ;
+        solid:publicTypeIndex   <https://mypod.store/laurin/data/f43f6383-3bff-4db8-bdab-eae2a8077c73> ;
+        foaf:nick               "laurin" ;
+        sec:publicKey           <https://mypod.store/laurin/data/5de35256-b3f9-46a5-9f57-4b21e68369d3> ;
+        as:endpoints            [ void:sparqlEndpoint  <https://mypod.store/laurin/sparql> ;
+                                  as:proxyUrl          <https://mypod.store/laurin/proxy>
+                                ] ;
+        as:followers            <https://mypod.store/laurin/followers> ;
+        as:following            <https://mypod.store/laurin/following> ;
+        as:liked                <https://mypod.store/laurin/liked> ;
+        as:outbox               <https://mypod.store/laurin/outbox> ;
+        as:preferredUsername    "laurin" ;
+        as:url                  <https://mypod.store/laurin/data/profiles/63dd13fd6e935689104146d3> .
