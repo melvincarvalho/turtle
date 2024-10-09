@@ -1,0 +1,75 @@
+@prefix : <#>.
+@prefix acl: <http://www.w3.org/ns/auth/acl#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix schema: <http://schema.org/>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix space: <http://www.w3.org/ns/pim/space#>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix pro: <./>.
+@prefix inbox: </inbox/>.
+@prefix mel: </>.
+@prefix skill: <http://data.europa.eu/esco/skill/>.
+@prefix c: <https://marknoble.solidcommunity.net/profile/card#>.
+@prefix c0: <https://testingsolidos.solidcommunity.net/profile/card#>.
+@prefix c1: <https://timbl.inrupt.net/profile/card#>.
+@prefix c2: <https://angelo.veltens.org/profile/card#>.
+
+skill:3cd569a2-4f88-4c1e-9995-8dce8c5e51a7 schema:name "JavaScript".
+
+pro:card a foaf:PersonalProfileDocument; foaf:maker :me; foaf:primaryTopic :me.
+
+:id1727269868788 solid:publicId skill:3cd569a2-4f88-4c1e-9995-8dce8c5e51a7 .
+
+:me
+    a schema:Person, foaf:Person;
+    schema:skills :id1727269868788;
+    vcard:fn "Melvin Carvalho";
+    vcard:role "Developer";
+    acl:trustedApp
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <http://localhost:8080>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://angelo.veltens.org>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://marknoble.solidcommunity.net>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://noeldemartin.github.io>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://otto-aa.github.io>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://penny.vincenttunru.com>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://podpro.dev>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://solidos.solidcommunity.net>
+            ],
+            [
+                acl:mode acl:Append, acl:Read, acl:Write;
+                acl:origin <https://timbl.inrupt.net>
+            ];
+    ldp:inbox inbox:;
+    space:preferencesFile </settings/prefs.ttl>;
+    space:storage mel:;
+    solid:account mel:;
+    solid:oidcIssuer <https://solid.social>;
+    solid:privateTypeIndex </settings/privateTypeIndex.ttl>;
+    solid:publicTypeIndex </settings/publicTypeIndex.ttl>;
+    foaf:knows c2:me, c:me, c0:me, c1:me;
+    foaf:name "Melvin Carvalho";
+    foaf:nick "melvincarvalho".
