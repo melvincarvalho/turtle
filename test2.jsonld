@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "todo": "http://example.org/todo#",
+    "tes": "https://melvin.solid.social/public/test/test.ttl#"
+  },
+  "@id": "tes:todo1728454651455",
+  "todo:completed": "false",
+  "todo:text": "1"
+},
+{
+  "@context": {
+    "todo": "http://example.org/todo#",
+    "tes": "https://melvin.solid.social/public/test/test.ttl#"
+  },
+  "@id": "tes:todo1728454723715",
+  "todo:completed": "false",
+  "todo:text": "2"
+}
