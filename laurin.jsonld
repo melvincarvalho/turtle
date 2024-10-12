@@ -1,0 +1,46 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://mypod.store/.well-known/context.jsonld"
+  ],
+  "id": "https://mypod.store/laurin",
+  "type": [
+    "Person",
+    "foaf:Person"
+  ],
+  "apods:contactRequests": "https://mypod.store/laurin/contact-requests",
+  "apods:contacts": "https://mypod.store/laurin/contacts",
+  "apods:ignoredContacts": "https://mypod.store/laurin/ignored-contacts",
+  "apods:rejectedContacts": "https://mypod.store/laurin/rejected-contacts",
+  "dc:created": "2023-02-03T14:02:36.75Z",
+  "dc:modified": "2024-10-02T10:29:25.195Z",
+  "schema:knowsLanguage": "en",
+  "inbox": "https://mypod.store/laurin/inbox",
+  "pim:storage": "https://mypod.store/laurin/data",
+  "solid:oidcIssuer": "https://mypod.store",
+  "solid:publicTypeIndex": "https://mypod.store/laurin/data/f43f6383-3bff-4db8-bdab-eae2a8077c73",
+  "foaf:nick": "laurin",
+  "publicKey": {
+    "id": "https://mypod.store/laurin/data/5de35256-b3f9-46a5-9f57-4b21e68369d3",
+    "type": [
+      "https://www.w3.org/ns/auth/rsa#RSAKey",
+      "sec:VerificationMethod"
+    ],
+    "dc:created": "2024-10-02T09:55:08.977Z",
+    "dc:creator": "https://mypod.store/laurin",
+    "dc:modified": "2024-10-02T09:55:08.977Z",
+    "controller": "https://mypod.store/laurin",
+    "owner": "https://mypod.store/laurin",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA5oiHbb7cJNlpxLuTb8ej\nuqfqHyqJpVaxs6Ltl+1sDpfRPTiJMckKIbWLJrU73ZQuSOM8hETUuEiHz8zBtzxX\ny7jm0XvAYoEkmZR8mw53ah8C5x0GhFhdUafY8zJvOVC4sML6tYTK8FkeHyDeRW+y\nhezm6bRGsoUVrpyBRpwO1ZfgHCq3wQhvzNtrXFG/+k+Q2hvDZXZQUmemrK4dn5EV\n3UX+uy7fA6sTvJqPSRfHOTay8LWvszthb9WLrC4MITVBJwfLywHwX4BYONJQBlLt\nKDe8pC9p4ziv5sLyYIIKM5+UNhLE8QoSWIPQfzGzgADEC+3lpuxqV6Q87XYPfGRi\nP6UEs+yh8p1gbeWHlnOyLiQ/+wS6G6yr1wpAwnbTPBpEowRjCIaPbNQjy8kmS/Ml\nGr+N+gIU4CVJcUEXmz5iUmdMUDngx7hJ09MLUZnEcp71SjOYRAn/HKG75pcZ22Yh\ntUpbZWBaDcUEyndrBvoBtQOWmNTVSx6iau1fqSvl5kOuugQtE8c6awAA0WLXoXb6\nrwtVAduvAz9e3d6jR+UQfjVQfuRdqb1j0c4OJjtQut5a80oEwPtEDJ7utlBp3/m7\nTwD+WeRDuvCd00P0vMp80MlIcxJBMvrp+Zo0pvLecxaK8AwPMQxi7FtWmHzO+m3z\nrtktG9aUVdkN4x7TMwyMyDUCAwEAAQ==\n-----END PUBLIC KEY-----\n"
+  },
+  "endpoints": {
+    "void:sparqlEndpoint": "https://mypod.store/laurin/sparql",
+    "proxyUrl": "https://mypod.store/laurin/proxy"
+  },
+  "followers": "https://mypod.store/laurin/followers",
+  "following": "https://mypod.store/laurin/following",
+  "liked": "https://mypod.store/laurin/liked",
+  "outbox": "https://mypod.store/laurin/outbox",
+  "preferredUsername": "laurin",
+  "url": "https://mypod.store/laurin/data/profiles/63dd13fd6e935689104146d3"
+}
