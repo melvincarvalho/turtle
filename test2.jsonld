@@ -3,7 +3,7 @@
     "todo": "http://example.org/todo#",
     "tes": "https://melvin.solid.social/public/test/test.ttl#"
   },
-  "todos": [
+  "todo:todos": [
     {
       "@id": "tes:todo1728454651455",
       "todo:completed": "false",
