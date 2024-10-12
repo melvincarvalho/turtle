@@ -1,18 +1,14 @@
 {
-  "@context": {
-    "todo": "http://example.org/todo#",
-    "tes": "https://melvin.solid.social/public/test/test.ttl#"
-  },
-  "todo:todos": [
+  "http://example.org/todo#todos": [
     {
-      "@id": "tes:todo1728454651455",
-      "todo:completed": "false",
-      "todo:text": "1"
+      "@id": "https://melvin.solid.social/public/test/test.ttl#todo1728454651455",
+      "http://example.org/todo#completed": "false",
+      "http://example.org/todo#text": "1"
     },
     {
-      "@id": "tes:todo1728454723715",
-      "todo:completed": "false",
-      "todo:text": "2"
+      "@id": "https://melvin.solid.social/public/test/test.ttl#todo1728454723715",
+      "http://example.org/todo#completed": "false",
+      "http://example.org/todo#text": "2"
     }
   ]
 }
